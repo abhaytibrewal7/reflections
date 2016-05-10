@@ -24,6 +24,13 @@ git add filename ....... for adding files in the cache(staging area).. so that t
 git commit (text editor will open and write commit message)
 git commit -m (write commit message in cmd itself)
 
+
+git diff                      ...compares working directory and staging area 									files that are changes......
+git diff --staged             ........compares staging area and the most recent 								commit in the repository........
+
+git diff commit1 commit2      ..........compares 2 commits int the repo
+
+
 --------------------------------------------------------------------------------
 
 for auto-completion in git-bash command prompt.. downloaded.. git-completion.bash (C:\Users\Savita)
@@ -41,4 +48,5 @@ git config --global merge.conflictstyle diff3
 
 
 for running sublime text thorugh git-bash.. added a line in .bash_profile
+
 
